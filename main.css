@@ -1,0 +1,456 @@
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    background: #001821;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+}
+
+.main-page-wrapper{
+    background: url("./image/main-1.png") center top no-repeat, url("./image/main-2.png") right -265px bottom 200px no-repeat;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    height: 120px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 0px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    margin-top: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.section_title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.general-menu {
+    position: absolute;
+    top: 30px;
+    left: 164px;
+}
+
+.general-menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.general-menu__item_active .general-menu__link {
+    color: #DA0100;
+
+}
+
+.general-menu__link {
+    font-size: 14px;
+    text-decoration: none;
+
+
+}
+
+.general-menu__link:hover {
+    color: #DA0100;
+}
+
+.contacts {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.contacts__info {
+    font-size: 13px;
+    text-decoration: underline;
+    margin-top: -7px;
+    color: #98A4A8;
+    ;
+}
+
+.contacts__info:hover {
+    color: #fff;
+}
+
+
+
+.intro__section {
+    width: 520px;
+    margin-bottom: 245px;
+}
+
+.intro__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.27;
+    margin-bottom: 40px;
+}
+
+.intro__text {
+    font-style: 18px;
+    margin-bottom: 29px;
+}
+
+.intro__button.button_style_common {
+
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 32px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    /*верхний регистр*/
+    text-decoration: none;
+    display: inline-block;
+}
+
+.offers {
+    margin-bottom: 80px;
+}
+
+
+
+.offers__item {
+    min-height: 470px;
+    background: #fff;
+    color: #303030;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 22px;
+    width: 362px;
+}
+
+.offers__header {
+    min-height: 150px;
+    margin-bottom: 0px;
+}
+
+.offers__item:last-child {
+    margin-right: 0;
+}
+
+.card__content {
+    padding: 27px 23px;
+
+}
+
+.card__subtitle {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+
+}
+
+.card__feature {
+    display: inline-block;
+    /*--------------*/
+    vertical-align: top;
+    width: 115px;
+    margin-right: 30px;
+}
+
+.card__feature:last-child {
+    margin: 0;
+}
+
+.card__text {
+
+    font-size: 16px;
+}
+
+.card__desc {
+    color: #303030;
+}
+
+.card__features {
+    margin-bottom: 10px;
+
+}
+
+
+.card__button {
+    width: 135px;
+    height: 55px;
+    background: #fff;
+    border-radius: 35px;
+    color: #F5170E;
+    padding: 17px 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #F5170E;
+    font-size: 14px;
+  
+}
+
+.card__button-text{
+    font-size: 14px;
+}
+
+.card__button.button_style_common {
+    background: #F5170E;
+    color: #fff;
+
+}
+
+.news {
+    bottom: 55px;
+}
+
+
+.advertisement {
+    width: 555px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 55px;
+    margin-right: 23px;
+}
+
+.advertisement__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /*заполняет полностью блок, в котором  находится*/
+
+}
+
+.advertisement__content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 25px 30px;
+    min-height: 160px;
+}
+
+.advertisement__date {
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.advertisement__subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.pagination {
+    text-align: center;
+    margin-bottom: 152.5px;
+}
+
+.pagination__info,
+.pagination__list {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+
+.pagination__info {
+    margin-right: 25px;
+}
+
+.pagination__item {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.pagination__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    /*чтобы выровнять активную цыфру в пагинации: */
+    line-height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.pagination__item-active .pagination__link {
+    background: #fff;
+    color: #F5170E;
+
+}
+.pagination__item .pagination__link:hover {
+    background: #fff;
+    color: #F5170E;
+
+}
+.about__inside::before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 490px;
+    height: 505px;
+    background: url("./image/gates.png") center center / cover no-repeat;
+
+}
+
+.about__info {
+    padding: 70px 81px;
+    display: inline-block;
+    vertical-align: top;
+    background: url("./image/mountains.png") center center / cover no-repeat;
+    width: 785px;
+    height: 455px;
+
+    margin-left: -142px;
+    margin-top: 88px;
+    margin-bottom: 86px;
+}
+
+
+.about__title {
+    color: #000000;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 37px;
+}
+
+.about__descr {
+    color: #060606;
+    margin-bottom: 35px;
+    width: 500px;
+    line-height: 1.8;
+
+}
+
+/*если появятся дополнительные абзацы: */
+.about__descr p {
+    margin-bottom: 20px;
+}
+
+.about__descr p:last-child {
+    margin-bottom: 0;
+}
+
+.footer {
+    height: 146px;
+    position: relative;
+}
+
+.footer-container__content {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contacts__text {
+    color: #9A9A9A;
+    font-size: 11px;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    /*чтобы картинка на социалках не повторялась, если увеличить*/
+    background: center center no-repeat;
+    
+
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__list {
+    top: 27px;
+    right: 300px;
+    position: absolute;
+}
+
+.socials__item--icon--telegram .socials__link {
+    background-image: url(./image/telegram.png);
+}
+
+.socials__item--icon--telegram .socials__link:hover {
+    background-image: url(./image/telegram-hover.png);
+}
+
+.socials__item--icon--vk .socials__link {
+    background-image: url(./image/vk.png);
+}
+
+.socials__item--icon--vk .socials__link:hover {
+    background-image: url(./image/vk-hover.png);
+}
+
+.socials__item--icon--fb .socials__link {
+    background-image: url(./image/f.png);
+}
+
+.socials__item--icon--fb .socials__link:hover {
+    background-image: url(./image/f-hover.png);
+}
+
+.socials__item--icon--insta .socials__link {
+    background-image: url(./image/in.png);
+}
+
+.socials__item--icon--insta .socials__link:hover {
+    background-image: url(./image/in-hover.png);
+}
+
+
