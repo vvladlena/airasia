@@ -12,7 +12,7 @@ a {
     color: inherit;
 }
 
-.main-page-wrapper{
+.main-page-wrapper {
     background: url("./image/main-1.png") center top no-repeat, url("./image/main-2.png") right -265px bottom 200px no-repeat;
 }
 
@@ -229,11 +229,7 @@ p {
     display: inline-block;
     border: 1px solid #F5170E;
     font-size: 14px;
-  
-}
 
-.card__button-text{
-    font-size: 14px;
 }
 
 .card__button.button_style_common {
@@ -245,7 +241,6 @@ p {
 .news {
     bottom: 55px;
 }
-
 
 .advertisement {
     width: 555px;
@@ -327,11 +322,13 @@ p {
     color: #F5170E;
 
 }
+
 .pagination__item .pagination__link:hover {
     background: #fff;
     color: #F5170E;
 
 }
+
 .about__inside::before {
     content: "";
     display: inline-block;
@@ -401,7 +398,7 @@ p {
     height: 36px;
     /*чтобы картинка на социалках не повторялась, если увеличить*/
     background: center center no-repeat;
-    
+
 
 }
 
@@ -452,5 +449,3 @@ p {
 .socials__item--icon--insta .socials__link:hover {
     background-image: url(./image/in-hover.png);
 }
-
-
