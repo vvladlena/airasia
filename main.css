@@ -6,6 +6,7 @@ body {
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto;
 }
 
 a {
@@ -13,12 +14,12 @@ a {
 }
 
 .main-page-wrapper {
-    background: url("./image/main-1.png") center top no-repeat, url("./image/main-2.png") right -265px bottom 200px no-repeat;
+    background: url("./image/main-1.png") center top no-repeat, url("./image/main-2.png") right -280px bottom 200px no-repeat;
 }
 
 .container {
     margin: 0 auto;
-    width: 1200px;
+    width: 1150px;
 }
 
 header {
@@ -63,10 +64,51 @@ p {
 .section_title {
     font-size: 36px;
     font-weight: bold;
+}
+
+.offers__title {
     margin-bottom: 50px;
 }
 
+.button {
+    border-radius: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #F5170E;
+    font-size: 14px;
+}
+
+.intro__button {
+    width: 168px;
+    height: 55px;
+    padding: 17px 39px;
+    margin-bottom: 15px;
+}
+
+.card__button {
+    width: 135px;
+    height: 55px;
+    padding: 17px 29px;
+    margin-bottom: 15px;
+}
+
+
+.button_style_common,
+.card__button.button_style_uncommon:hover {
+    background: #F5170E;
+    color: #fff;
+}
+
+.button_style_uncommon,
+.card__button.button_style_common:hover {
+    background: #fff;
+    color: #F5170E;
+}
+
 .general-menu {
+    font-size: 14px;
     position: absolute;
     top: 30px;
     left: 164px;
@@ -80,14 +122,14 @@ p {
 
 .general-menu__item_active .general-menu__link {
     color: #DA0100;
-
 }
 
 .general-menu__link {
-    font-size: 14px;
     text-decoration: none;
+}
 
-
+.general-menu__item:last-child {
+    margin-right: 0;
 }
 
 .general-menu__link:hover {
@@ -96,7 +138,7 @@ p {
 
 .contacts {
     position: absolute;
-    top: 19px;
+    top: 17px;
     right: 0;
     font-style: normal;
     text-align: right;
@@ -124,7 +166,7 @@ p {
 
 .intro__section {
     width: 520px;
-    margin-bottom: 245px;
+    margin-bottom: 230px;
 }
 
 .intro__title {
@@ -135,31 +177,20 @@ p {
 }
 
 .intro__text {
-    font-style: 18px;
+    font-size: 18px;
     margin-bottom: 29px;
 }
 
-.intro__button.button_style_common {
 
-    background: #F5170E;
-    border-radius: 35px;
-    padding: 18px 32px;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    /*верхний регистр*/
-    text-decoration: none;
-    display: inline-block;
-}
 
 .offers {
-    margin-bottom: 80px;
+    margin-bottom: 124px;
 }
 
 
 
 .offers__item {
-    min-height: 470px;
+    min-height: 450px;
     background: #fff;
     color: #303030;
     border-radius: 4px;
@@ -168,9 +199,9 @@ p {
     width: 362px;
 }
 
-.offers__header {
+.card__header {
     min-height: 150px;
-    margin-bottom: 0px;
+    margin-bottom: 14px;
 }
 
 .offers__item:last-child {
@@ -178,23 +209,22 @@ p {
 }
 
 .card__content {
-    padding: 27px 23px;
+    padding: 13px 23px;
 
 }
 
 .card__subtitle {
     font-weight: bold;
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 
 }
 
 .card__feature {
     display: inline-block;
-    /*--------------*/
     vertical-align: top;
-    width: 115px;
-    margin-right: 30px;
+    width: 120px;
+    margin-right: 40px;
 }
 
 .card__feature:last-child {
@@ -202,44 +232,30 @@ p {
 }
 
 .card__text {
-
-    font-size: 16px;
+    color: #666666;
+    display: inline-block;
 }
 
 .card__desc {
-    color: #303030;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 .card__features {
-    margin-bottom: 10px;
-
-}
-
-
-.card__button {
-    width: 135px;
-    height: 55px;
-    background: #fff;
-    border-radius: 35px;
-    color: #F5170E;
-    padding: 17px 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-    border: 1px solid #F5170E;
-    font-size: 14px;
-
-}
-
-.card__button.button_style_common {
-    background: #F5170E;
-    color: #fff;
-
+    margin-bottom: 26px;
 }
 
 .news {
-    bottom: 55px;
+    margin-bottom: 143.5px;
+}
+
+.news__title {
+    margin-bottom: 50px;
+}
+
+.news__list {
+    margin-bottom: 55px;
 }
 
 .advertisement {
@@ -249,8 +265,11 @@ p {
     position: relative;
     border-radius: 4px;
     overflow: hidden;
-    margin-bottom: 55px;
     margin-right: 23px;
+}
+
+.news__item:last-child {
+    margin-right: 0;
 }
 
 .advertisement__image {
@@ -267,13 +286,14 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 25px 30px;
+    padding: 17px 30px;
     min-height: 160px;
 }
 
 .advertisement__date {
+    display: inline-block;
     font-size: 14px;
-    margin-bottom: 18px;
+    margin-bottom: 12.5px;
 }
 
 .advertisement__subtitle {
@@ -284,14 +304,12 @@ p {
 
 .pagination {
     text-align: center;
-    margin-bottom: 152.5px;
 }
 
 .pagination__info,
 .pagination__list {
     display: inline-block;
     vertical-align: middle;
-
 }
 
 
@@ -348,16 +366,17 @@ p {
     height: 455px;
 
     margin-left: -142px;
-    margin-top: 88px;
+    margin-top: 95px;
     margin-bottom: 86px;
 }
 
 
 .about__title {
-    color: #000000;
-    font-size: 36px;
-    font-weight: bold;
     margin-bottom: 37px;
+}
+
+.title_color_black {
+    color: #000000;
 }
 
 .about__descr {
@@ -377,12 +396,12 @@ p {
     margin-bottom: 0;
 }
 
-.footer {
+.footer__content {
     height: 146px;
     position: relative;
 }
 
-.footer-container__content {
+.footer-line {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -413,39 +432,39 @@ p {
 }
 
 .socials__list {
-    top: 27px;
-    right: 300px;
+    top: 20px;
+    right: 268px;
     position: absolute;
 }
 
-.socials__item--icon--telegram .socials__link {
+.socials__item_icon_telegram .socials__link {
     background-image: url(./image/telegram.png);
 }
 
-.socials__item--icon--telegram .socials__link:hover {
+.socials__item_icon_telegram .socials__link:hover {
     background-image: url(./image/telegram-hover.png);
 }
 
-.socials__item--icon--vk .socials__link {
+.socials__item_icon_vk .socials__link {
     background-image: url(./image/vk.png);
 }
 
-.socials__item--icon--vk .socials__link:hover {
+.socials__item_icon_vk .socials__link:hover {
     background-image: url(./image/vk-hover.png);
 }
 
-.socials__item--icon--fb .socials__link {
+.socials__item_icon_fb .socials__link {
     background-image: url(./image/f.png);
 }
 
-.socials__item--icon--fb .socials__link:hover {
+.socials__item_icon_fb .socials__link:hover {
     background-image: url(./image/f-hover.png);
 }
 
-.socials__item--icon--insta .socials__link {
+.socials__item_icon_insta .socials__link {
     background-image: url(./image/in.png);
 }
 
-.socials__item--icon--insta .socials__link:hover {
+.socials__item_icon_insta .socials__link:hover {
     background-image: url(./image/in-hover.png);
 }
