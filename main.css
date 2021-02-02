@@ -19,7 +19,7 @@ a {
 
 .container {
     margin: 0 auto;
-    width: 1150px;
+    width: 1141px;
 }
 
 header {
@@ -84,16 +84,19 @@ p {
     width: 168px;
     height: 55px;
     padding: 17px 39px;
-    margin-bottom: 15px;
-}
+   }
 
 .card__button {
     width: 135px;
     height: 55px;
     padding: 17px 29px;
-    margin-bottom: 15px;
 }
-
+.about__button {
+    width: 168px;
+    height: 55px;
+    padding: 17px 39px;
+    margin-left: -65px;
+}
 
 .button_style_common,
 .card__button.button_style_uncommon:hover {
@@ -166,7 +169,7 @@ p {
 
 .intro__section {
     width: 520px;
-    margin-bottom: 230px;
+    margin-bottom: 245px;
 }
 
 .intro__title {
@@ -189,14 +192,16 @@ p {
 
 
 
-.offers__item {
-    min-height: 450px;
+.card {
     background: #fff;
     color: #303030;
     border-radius: 4px;
     display: inline-block;
-    margin-right: 22px;
     width: 362px;
+}
+
+.offers__item{
+    margin-right: 22px;
 }
 
 .card__header {
@@ -209,7 +214,7 @@ p {
 }
 
 .card__content {
-    padding: 13px 23px;
+    padding: 20px 23px;
 
 }
 
@@ -259,13 +264,11 @@ p {
 }
 
 .advertisement {
-    width: 555px;
     display: inline-block;
     vertical-align: top;
     position: relative;
     border-radius: 4px;
-    overflow: hidden;
-    margin-right: 23px;
+    margin-right: 20px;
 }
 
 .news__item:last-child {
@@ -358,13 +361,10 @@ p {
 }
 
 .about__info {
-    padding: 70px 81px;
+    padding: 70px 143px;
     display: inline-block;
     vertical-align: top;
     background: url("./image/mountains.png") center center / cover no-repeat;
-    width: 785px;
-    height: 455px;
-
     margin-left: -142px;
     margin-top: 95px;
     margin-bottom: 86px;
