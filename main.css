@@ -14,7 +14,7 @@ a {
 }
 
 .main-page-wrapper {
-    background: url("./image/main-1.png") center top no-repeat, url("./image/main-2.png") right -280px bottom 200px no-repeat;
+    background: url("./image/main-1.png") center top no-repeat, url("./image/main-2.png") right -280px bottom 15px no-repeat;
     min-width: 1141px;
 }
 
