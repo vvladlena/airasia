@@ -15,6 +15,7 @@ a {
 
 .main-page-wrapper {
     background: url("./image/main-1.png") center top no-repeat, url("./image/main-2.png") right -280px bottom 200px no-repeat;
+    min-width: 1141px;
 }
 
 .container {
@@ -61,6 +62,10 @@ p {
     box-sizing: border-box;
 }
 
+.intro {
+    margin-bottom: 245px;
+}
+
 .section_title {
     font-size: 36px;
     font-weight: bold;
@@ -78,25 +83,20 @@ p {
     display: inline-block;
     border: 1px solid #F5170E;
     font-size: 14px;
+    padding: 17px 39px;
 }
 
-.intro__button {
-    width: 168px;
-    height: 55px;
-    padding: 17px 39px;
-   }
+.intro__button:hover,
+.about__button:hover {
+    background: #DA0100;
+}
 
 .card__button {
-    width: 135px;
-    height: 55px;
     padding: 17px 29px;
+    margin-bottom: 6px;
 }
-.about__button {
-    width: 168px;
-    height: 55px;
-    padding: 17px 39px;
-    margin-left: -65px;
-}
+
+
 
 .button_style_common,
 .card__button.button_style_uncommon:hover {
@@ -150,7 +150,6 @@ p {
 .contacts__phone {
     text-decoration: none;
     font-size: 26px;
-    margin-bottom: 4px;
 }
 
 .contacts__info {
@@ -169,7 +168,6 @@ p {
 
 .intro__section {
     width: 520px;
-    margin-bottom: 245px;
 }
 
 .intro__title {
@@ -200,13 +198,13 @@ p {
     width: 362px;
 }
 
-.offers__item{
+.offers__item {
     margin-right: 22px;
 }
 
 .card__header {
     min-height: 150px;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
 }
 
 .offers__item:last-child {
@@ -221,7 +219,7 @@ p {
 .card__subtitle {
     font-weight: bold;
     font-size: 24px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 
 }
 
@@ -229,7 +227,11 @@ p {
     display: inline-block;
     vertical-align: top;
     width: 120px;
-    margin-right: 40px;
+    margin-right: 35px;
+}
+
+.card__icon {
+    vertical-align: middle;
 }
 
 .card__feature:last-child {
@@ -239,16 +241,17 @@ p {
 .card__text {
     color: #666666;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .card__desc {
     font-size: 14px;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .card__features {
-    margin-bottom: 26px;
+    margin-bottom: 23px;
 }
 
 .news {
@@ -360,14 +363,18 @@ p {
 
 }
 
+.about {
+    margin-bottom: 53px;
+}
+
 .about__info {
-    padding: 70px 143px;
+    padding: 71px 78px;
+    width: 785px;
     display: inline-block;
     vertical-align: top;
     background: url("./image/mountains.png") center center / cover no-repeat;
     margin-left: -142px;
     margin-top: 95px;
-    margin-bottom: 86px;
 }
 
 
@@ -396,13 +403,16 @@ p {
     margin-bottom: 0;
 }
 
+
+
 .footer__content {
-    height: 146px;
     position: relative;
+    margin-top: 30px;
 }
 
 .footer-line {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+
 }
 
 .contacts__text {
