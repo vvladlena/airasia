@@ -1,11 +1,13 @@
 
 .top-line__container .header {
     margin-bottom: 85px;
+    
 }
 
 .top-line {
     padding-bottom: 22px;
-    background: url('../services_img/services_background.png') right -283px top no-repeat;
+    
+    background: url('../services_img/services_background.png') top no-repeat;
 
 }
 
@@ -14,6 +16,7 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    
 }
 
 

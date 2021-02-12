@@ -1,5 +1,5 @@
 .bottom-section {
-    padding-bottom: 98px;
+    padding-bottom: 60px;
 }
 
 .bottom-section_white {
@@ -10,14 +10,20 @@
     color: #1A1B1E;
     font-size: 48px;
     font-weight: bold;
-    padding: 70px 0 88px 0;
+    padding: 70px 0 70px 0;
 }
 
 .partners__list {
     display: flex;
     flex-wrap: wrap;
-    /* margin-left: -46px; */
+    justify-content:space-between;
+    
 }
+.partners__item{
+    margin-bottom: 25px;
+/* padding: 15px 0; */
+}
+
 
 .partners__img {
     max-width: 100%;

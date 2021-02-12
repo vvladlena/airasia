@@ -1,9 +1,9 @@
 .footer__content {
-    margin-top: -25px;
+    /* margin-top: -25px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 75px 0;
+    padding: 54px 0;
 }
 
 .footer-line {

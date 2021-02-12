@@ -29,6 +29,13 @@
     background: #fff;
     color: #F5170E;
 }
+.hello__button{
+    padding: 17px 57px;
+}
+
+.hello__button:hover{
+    background: #DA0100;
+}
 
 
 
