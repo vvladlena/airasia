@@ -1,0 +1,9 @@
+.main-page-wrapper {
+    background: url("../../image/main_img/main-1.png") center top no-repeat, url("../../image/main_img/main-2.png") right -280px bottom 15px no-repeat;
+    min-width: 1141px;
+}
+
+.hello-wrapper {
+    background: url("../../image/hello_img/hello_bg.png") center top no-repeat;
+    min-height: 960px;
+}

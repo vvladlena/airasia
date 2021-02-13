@@ -1,0 +1,32 @@
+
+.top-line__container .header {
+    margin-bottom: 85px;
+    
+}
+
+.top-line {
+    padding-bottom: 22px;
+    background: url('../../image/services_img/services_background.png') top no-repeat;
+    min-width: 100%;
+
+}
+
+.services-wrapper{
+    width: 100%;
+}
+
+.top-line__container {
+    min-height: 390px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    
+}
+
+
+.page-tittle {
+    align-self: center;
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+}
