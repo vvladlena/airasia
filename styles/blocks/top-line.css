@@ -6,14 +6,13 @@
 
 .top-line {
     padding-bottom: 22px;
-    background: url('../../image/services_img/services_background.png') top no-repeat;
-    min-width: 100%;
+   
 
 }
 
-.services-wrapper{
+/* .services-wrapper{
     width: 100%;
-}
+} */
 
 .top-line__container {
     min-height: 390px;
