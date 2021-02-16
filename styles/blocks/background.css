@@ -3,12 +3,6 @@
     min-width: 1200px;
 }
 
-.hello-wrapper {
-    background: url("../../image/hello_img/hello_bg.png") center top no-repeat;
-    min-height: 960px;
-    min-width: 1200px;
-}
-
 .services-wrapper{
     background: url('../../image/services_img/services_background.png') top no-repeat;
     min-width: 1200px;
