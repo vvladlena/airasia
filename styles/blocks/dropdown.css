@@ -1,7 +1,6 @@
 .dropdown {
     position: relative;
     display: inline-block;
-
 }
 
 .dropdown__menu {
@@ -15,10 +14,8 @@
     opacity: 0;
     padding: 16px 20px;
     position: absolute;
-    transition: opacity .3s;
-    /* чтобы блок появлялся только, когда наводим на ссылку, а сам блок располагаем за рамками экрана: */
-    right: -99999px;
-
+    transition: opacity .5s;
+    visibility: hidden;
 }
 
 /* отступ */
@@ -31,7 +28,6 @@
     left: 0;
     right: 0;
     top: -9px;
-
 }
 
 /* треугольник */
@@ -51,8 +47,9 @@
 
 .dropdown:hover .dropdown__menu {
     opacity: 1;
-    right: 0;
+    visibility: visible;
 }
+
 
 
 
