@@ -1,0 +1,32 @@
+.controls__elem{
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag{
+background: #B9EAE4;
+}
+
+.controls__checkbox{
+    display: none;
+}
+
+.form__controls{
+    display: flex;
+    margin-bottom: 25px;
+}
+.form__controls-title{
+    width: 37%;
+    font-size: 18px;
+    color: #1A1B1E;
+    margin-right: 15px;
+    /* padding-left: 30px; */
+}
+.controls{
+    flex:1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.controls__item{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}

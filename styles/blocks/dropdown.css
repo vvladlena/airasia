@@ -1,11 +1,13 @@
 .dropdown {
     position: relative;
     display: inline-block;
+
 }
 
 .dropdown__menu {
+    right: 0;
     background: #EDEDED;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     border-radius: 4px;
     width: 160px;
     top: 100%;
@@ -13,24 +15,26 @@
     opacity: 0;
     padding: 16px 20px;
     position: absolute;
-    right: 0;
     transition: opacity .3s;
-    left: -99999px;
-    text-align: center;
+    /* чтобы блок появлялся только, когда наводим на ссылку, а сам блок располагаем за рамками экрана: */
+    right: -99999px;
+
 }
 
-
+/* отступ */
 .dropdown__menu::before {
     position: absolute;
     content: " ";
     display: block;
     height: 10px;
+    /* расстягиваем по ширине блока: */
     left: 0;
     right: 0;
     top: -9px;
 
 }
 
+/* треугольник */
 .dropdown__menu::after {
     content: " ";
     display: block;
@@ -43,12 +47,11 @@
     bottom: 100%;
     right: 40px;
 
-
 }
 
 .dropdown:hover .dropdown__menu {
-    left: 0;
     opacity: 1;
+    right: 0;
 }
 
 
@@ -58,10 +61,10 @@
     font-size: 13px;
 }
 
-.dropdown_hours{
-font-weight: 700;
+.dropdown_hours {
+    font-weight: 700;
 }
 
-.dropdown_break{
-font-weight: 600;
+.dropdown_break {
+    font-weight: 600;
 }

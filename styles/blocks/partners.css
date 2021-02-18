@@ -6,10 +6,13 @@
     background: #F4F5F5;
 }
 
-.partners__tittle {
+.bottom-section__title{
     color: #1A1B1E;
     font-size: 48px;
     font-weight: bold;
+}
+.partners__tittle {
+   
     padding: 70px 0 70px 0;
 }
 

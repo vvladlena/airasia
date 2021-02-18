@@ -37,5 +37,30 @@
     background: #DA0100;
 }
 
+.button-type-send:hover{
+    background: #DA0100;
+}
+.button-type-clear{
+    background: #8E8E8E;
+color: #fff;
+border: 1px solid #8E8E8E;
+padding: 17px 44px;
+
+}
+
+.button-type-clear:hover{
+    background: #2B2B2B;
+}
+
+.form__button{
+    margin-right: 20px;
+}
+.form__button:last-child{
+    margin-right: 0;
+}
+.form__btns{
+display: flex;
+justify-content: flex-end;
+}
 
 

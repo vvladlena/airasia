@@ -5,6 +5,7 @@
 }
 
 .contacts__phone {
+    position: relative;
     text-decoration: none;
     font-size: 26px;
     display: flex;

@@ -1,0 +1,35 @@
+.separator {
+    background: url('../../image/review/background.png') center top no-repeat;
+    /* min-height: 363px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* min-height: 100%; */
+}
+
+.separator__container {
+    /* min-height: 363px; */
+}
+
+.separator__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 363px;
+}
+
+.separator__title {
+    max-width: 50%;
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    /* line-height: 1.1; */
+}
+
+.separator__content::after {
+    content: url('../../image/review/couple.png');
+    margin-top: auto;
+    max-height: 341px;
+    padding-right: 35px;
+}
+

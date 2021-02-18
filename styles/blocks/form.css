@@ -1,0 +1,43 @@
+.bottom-section_reviews {
+    padding-bottom: 95px;
+}
+.form__row {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 4px;
+    border: none;
+    background: #fff;
+    padding: 22px 30px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.form__input::placeholder {
+    color: #666;
+}
+
+.form__input:last-child {
+    margin-right: 0;
+}
+
+.form__input_textarea {
+    height: 232px;
+}
+
+.form__input {
+    outline: none;
+}
+
+.form__input:focus {
+    border: 2px solid red;
+}
+
+.title-review {
+    padding: 60px 0 60px 0;
+    
+}
