@@ -1,5 +1,5 @@
 .bottom-section_reviews {
-    padding-bottom: 95px;
+    padding: 60px 0 95px 0;
 }
 .form__row {
     display: flex;
@@ -12,9 +12,11 @@
     border-radius: 4px;
     border: none;
     background: #fff;
-    padding: 22px 30px;
+    padding: 0 30px;
     font-size: 18px;
     color: #000000;
+    min-height: 65px;
+    line-height: 1.2;
 }
 
 .form__input::placeholder {
@@ -27,17 +29,22 @@
 
 .form__input_textarea {
     height: 232px;
+    padding-top: 22px;
+    resize: none;
 }
 
 .form__input {
     outline: none;
+    border: 2px solid transparent;
+
 }
 
 .form__input:focus {
-    border: 2px solid red;
+    border: 2px solid #F5170E;
 }
 
+
 .title-review {
-    padding: 60px 0 60px 0;
+    margin-bottom: 60px;
     
 }

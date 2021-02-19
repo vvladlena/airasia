@@ -1,15 +1,12 @@
 .separator {
     background: url('../../image/review/background.png') center top no-repeat;
-    /* min-height: 363px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* min-height: 100%; */
+   background-size: cover;
 }
 
-.separator__container {
-    /* min-height: 363px; */
-}
+
 
 .separator__content {
     display: flex;

@@ -39,6 +39,7 @@
 .review__tags{
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 .tag {
     color: #303030;
